@@ -1,0 +1,124 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 10px 10px 10px #80808021;
+}
+.container {
+  max-width: 1438px !important;
+  margin: 0 auto;
+  padding: 0 2rem !important;
+}
+@media screen and (max-width: 991.5px) {
+  .container {
+    padding: 0 1.6rem !important;
+    max-width: 100% !important;
+  }
+}
+
+.dashborad_wrapper {
+  padding-top: 6rem;
+}
+.categoery_wrapper {
+  position: sticky;
+  left: 0;
+  top: 90px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff !important;
+  border-radius: 12px !important;
+}
+@media screen and (max-width: 767.5px) {
+  .modal-content {
+    max-width: 90% !important;
+  }
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 1px 3px 10px grey;
+  margin-bottom: 40px;
+  background: linear-gradient(0deg, #cdedff 0, rgba(205, 237, 255, 0) 100%);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.card button {
+  background-color: #07314a;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px 0;
+  color: #fff;
+}
+.card p {
+  color: #07314a;
+  font-weight: 600;
+}
+.card h3 {
+  color: #07314a;
+  border-bottom: 1px solid #07314a;
+  width: fit-content;
+  margin: 0 auto 10px;
+}
+
+.card span {
+  color: #07314a;
+  font-weight: 400;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.css-t3ipsp-control:hover {
+  border-color: #07314a !important;
+  box-shadow: unset !important;
+}
+.css-tr4s17-option {
+  background-color: #07314a !important;
+}
+.css-t3ipsp-control {
+  background-color: unset !important;
+  box-shadow: unset !important;
+}
+label {
+  color: #07314a;
+  font-weight: 600;
+}
